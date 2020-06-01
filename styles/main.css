@@ -1,0 +1,145 @@
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: #dddddd;
+}
+
+a {
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Ubuntu, sans-serif;
+    color: var(--title-color);
+}
+
+.homepage {
+    height: 100vh;
+    background: url('../assets/icons/home-background.svg') no-repeat;
+    background-position: 38vw bottom;
+}
+
+.homepage header {
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.homepage header a {
+    display: flex;
+    font-weight: 700;
+}
+
+.homepage header a span {
+    display: flex;
+    margin-right: 16px;
+    background-image: url('../assets/icons/log-in.svg');
+    width: 20px;
+    height: 20px;
+}
+
+.homepage main {
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.homepage main h1 {
+    font-size: 54px;
+}
+
+.homepage main p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 24px;
+}
+
+.homepage main a {
+    width: 100%;
+    max-width: 360px;
+    background-color: var(--primary-color);
+    height: 72px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    transition: 400ms;
+    color: white;
+}
+
+.homepage main a:hover {
+    background-color: #2fb86e;
+}
+
+.homepage main a span {
+    width: 72px;
+    height: 72px;
+    background-color: rgba(0, 0, 0, 0.08);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage main a span::after {
+    content: "";
+    background-image: url('../assets/icons/search.svg');
+
+    width: 20px;
+    height: 20px;
+}
+
+.homepage main a strong {
+    flex: 1;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+@media (max-width: 900px) {
+    .homepage {
+        background-position-x: 70vw;
+    }
+
+    .homepage .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .homepage header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .homepage main {
+        align-items: center;
+    }
+}

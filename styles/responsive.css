@@ -1,0 +1,35 @@
+@media (max-width: 900px) {
+    .homepage {
+        background-position-x: 70vw;
+    }
+
+    .homepage .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    .homepage header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .homepage main {
+        align-items: center;
+    }
+}
+
+@media (min-width: 1700) {
+    .homepage {
+        background-position-x: 40vw;
+    }
+
+}
+
+@media (max-height: 760px) {
+    .homepage {
+        background-position-y: 200px;
+    }
+}

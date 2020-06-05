@@ -1,4 +1,4 @@
-# ecoleta :recycle:
+![](https://github.com/programapedro/ecoleta/blob/master/public/assets/icons/logo.svg)
 ## About :memo:
 Marketplace de coleta de resíduos que auxilia o usuário a encontrar pontos de coleta próximos a seu endereço, podendo também cadastrar pontos, caso seja uma empresa/entidade responsável pelo ramo.
 

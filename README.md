@@ -1,5 +1,17 @@
-# ecoleta
-## Preview
+# ecoleta :recycle:
+## About :memo:
+Marketplace de coleta de resíduos que auxilia o usuário a encontrar pontos de coleta próximos a seu endereço, podendo também cadastrar pontos, caso seja uma empresa/entidade responsável pelo ramo.
+
+## Next Level Week :calendar: 
+| Day   | Completed     |
+| ------|:-------------:|
+| Day 1 | :heavy_check_mark: |
+| Day 2 | :heavy_check_mark: |
+| Day 3 | :heavy_check_mark: |
+| Day 4 | :heavy_check_mark: |
+| Day 5 | :soon: |
+
+## Preview :eyes:
 
 ### Home page
 ![alt text](https://i.imgur.com/mMXxwOC.png "Home page")

@@ -1,0 +1,5 @@
+# Modules
+node_modules/
+
+# package.json cache
+package-lock.json

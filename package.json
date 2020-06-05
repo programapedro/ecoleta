@@ -1,0 +1,28 @@
+{
+  "name": "ecoleta",
+  "version": "1.0.0",
+  "description": "### Home page ![alt text](https://i.imgur.com/mMXxwOC.png \"Home page\") ### Create point page ![alt text](https://i.imgur.com/oJCtEVo.png \"Create Point page\")",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programapedro/ecoleta.git"
+  },
+  "keywords": [],
+  "author": "Pedro Hugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programapedro/ecoleta/issues"
+  },
+  "homepage": "https://github.com/programapedro/ecoleta#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

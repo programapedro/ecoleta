@@ -1,0 +1,36 @@
+    {% extends "layout.html" %}
+
+    {% block styles %}
+        <link rel="stylesheet" href="./styles/search-results.css">
+    {% endblock styles %}
+
+    {% block content %}
+        <div class="search-page-results">
+            
+            {% include "components/header.html" %}
+
+            <main>
+                <h4>2 pontos encontrados</h4>
+                <div class="cards">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1481761289552-381112059e05?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1161&q=80" alt="Card 1">
+                        <h1>Titulo</h1>
+                        <h3>Tipos dos itens coletáveis</h3>
+                        <p>Cidade, Estado <br>
+                            Endereço, Bairro <br>
+                            Número/Complemento
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1567393528677-d6adae7d4a0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Card 2">
+                        <h1>Titulo</h1>
+                        <h3>Tipos dos itens coletáveis</h3>
+                        <p>Cidade, Estado <br>
+                            Endereço, Bairro <br>
+                            Número/Complemento
+                        </p>
+                    </div>
+                </div>
+            </main>
+        </div>
+    {% endblock content %}

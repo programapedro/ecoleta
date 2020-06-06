@@ -9,15 +9,21 @@ Marketplace de coleta de resíduos que auxilia o usuário a encontrar pontos de 
 | Day 2 | :heavy_check_mark: |
 | Day 3 | :heavy_check_mark: |
 | Day 4 | :heavy_check_mark: |
-| Day 5 | :soon: |
+| Day 5 | :heavy_check_mark: |
+
+## Technologies and Frameworks :computer:
+* Express
+* Nunjucks
+* SQLite
+* Nodemon (for development)
 
 ## Preview :eyes:
 
 ### Home page
-![alt text](https://i.imgur.com/mMXxwOC.png "Home page")
+![alt text](https://i.imgur.com/yRoGifL.png "Home page")
 ### Create point page
-![alt text](https://i.imgur.com/IZhxPhO.png "Create Point page")
+![alt text](https://i.imgur.com/h6ylbQL.png "Create Point page")
 ### Search
 ![alt text](https://i.imgur.com/cM6C4iD.png "Search")
 ### Search results page
-![alt text](https://i.imgur.com/an5O7lt.png "Search results page")
+![alt text](https://i.imgur.com/AsW6hus.png "Search results page")

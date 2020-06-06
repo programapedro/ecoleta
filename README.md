@@ -24,6 +24,11 @@ Marketplace de coleta de resíduos que auxilia o usuário a encontrar pontos de 
 ### Create point page
 ![alt text](https://i.imgur.com/h6ylbQL.png "Create Point page")
 ### Search
-![alt text](https://i.imgur.com/cM6C4iD.png "Search")
+![alt text](https://i.imgur.com/RvUSp4F.png "Search")
 ### Search results page
 ![alt text](https://i.imgur.com/AsW6hus.png "Search results page")
+### Created point successfully
+![alt text](https://i.imgur.com/IZXfMM7.png "Created point successfully")
+### Something went wrong
+![alt text](https://i.imgur.com/TjIEMEM.png "Something went wrong")
+

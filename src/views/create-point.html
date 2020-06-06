@@ -2,6 +2,7 @@
 
     {% block styles %}
         <link rel="stylesheet" href="./styles/create-point.css">
+        <link rel="stylesheet" href="./styles/modal.css">
     {% endblock styles %}
 
     {% block content %}
@@ -9,7 +10,7 @@
 
             {% include "components/header.html" %}
 
-            <form action="">
+            <form action="/save-point" method="POST">
                 <h1>Cadastro do ponto de coleta</h1>
                 <fieldset>
                     <legend>
@@ -31,17 +32,17 @@
                             <input type="text" name="address" required>
                         </div>
                         <div class="field">
-                            <label for="address2">Número/Complemento</label>
-                            <input type="text" name="address2" required>
+                            <label for="number_complement">Número/Complemento</label>
+                            <input type="text" name="number_complement" required>
                         </div>
                     </div>
                     <div class="field-group">
                         <div class="field">
-                            <label for="state">Estado</label>
-                            <select name="state" required>
+                            <label for="uf">Estado</label>
+                            <select name="uf" required>
                                 <option value="">Selecione o Estado</option>
                             </select>
-                            <input type="hidden" name="uf">
+                            <input type="hidden" name="state">
                         </div>
                         <div class="field">
                             <label for="city">Cidade</label>
@@ -58,27 +59,27 @@
                         <span>Selecione um ou mais itens abaixo</span>
                     </legend>
                     <div class="items-grid">
-                        <li data-id="1">
+                        <li data-id="Lâmpadas">
                             <img src="./assets/icons/lampadas.svg" alt="Lâmpadas">
                             <span>Lâmpadas</span>
                         </li>
-                        <li data-id="2">
+                        <li data-id="Pilhas e Baterias">
                             <img src="./assets/icons/baterias.svg" alt="Pilhas e Baterias">
                             <span>Pilhas e Baterias</span>
                         </li>
-                        <li data-id="3">
+                        <li data-id="Papel e Papelão">
                             <img src="./assets/icons/papeis-papelao.svg" alt="Papel e Papelão">
                             <span>Papel e Papelão</span>
                         </li>
-                        <li data-id="4">
+                        <li data-id="Resíduos eletrônicos">
                             <img src="./assets/icons/eletronicos.svg" alt="Resíduos eletrônicos">
                             <span>Resíduos eletrônicos</span>
                         </li>
-                        <li data-id="5">
+                        <li data-id="Resíduos orgânicos">
                             <img src="./assets/icons/organicos.svg" alt="Resíduos orgânicos">
                             <span>Resíduos orgânicos</span>
                         </li>
-                        <li data-id="6">
+                        <li data-id="Óleo">
                             <img src="./assets/icons/oleo.svg" alt="Óleo">
                             <span>Óleo</span>
                         </li>
@@ -88,6 +89,15 @@
                 <button type="submit">Cadastrar ponto de coleta</button>
             </form>
         </div>
+
+        {% if saved %}
+            {% include "components/point-created.html" %}
+        {% endif %}
+
+        {% if dont_saved %}
+            {% include "components/point-not-created.html" %}
+        {% endif %}
+
     {% endblock content %}
 
     {% block script %}

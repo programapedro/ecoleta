@@ -76,3 +76,16 @@
 #modal form button:hover {
     background-color: #2fb85e;
 }
+
+#modal.point-created .modal-content,
+#modal.point-not-created .modal-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#modal.point-created .modal-content h1, 
+#modal.point-not-created .modal-content h1 {
+    color: white;
+    margin-top: 32px;
+}

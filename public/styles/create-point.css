@@ -1,3 +1,12 @@
+html {
+    background: #006fce;
+}
+
+body {
+    background: url('../assets/icons/mountains.svg') no-repeat;
+    background-position: bottom;
+}
+
 .create-point-page {
     width: 90%;
     max-width: 1100px;
@@ -38,6 +47,7 @@ form {
 
 form h1 {
     font-size: 36px;
+    color: var(--title-color);
 }
 
 form fieldset {
@@ -55,6 +65,7 @@ form legend {
 
 form legend h2 {
     font-size: 24px;
+    color: var(--title-color);
 }
 
 form legend span {
@@ -120,9 +131,9 @@ form button:hover {
 }
 
 .items-grid li {
-    background-color: #f5f5f5;
+    background-color: #dddddd57;
     list-style: none;
-    border: 2px solid #f5f5f5;
+    border: 2px solid #dddddd;
     border-radius: 8px;
     height: 180px;
     padding: 32px 24px 16px;

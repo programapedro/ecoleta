@@ -1,3 +1,4 @@
+/* Desktop, Notebook, iPad and iPad Pro */
 @media (max-width: 900px) {
     .homepage {
         background-position-x: 70vw;
@@ -37,11 +38,152 @@
     }
 }
 
+
+/* Moto G4, Galaxy S5, Pixel 2, Pixel 2 XL, iPhone 6/7/8 Normal or Plus and iPhone X */
+@media (max-width: 420px) {
+
+    .homepage main p {
+        margin-top: 0;
+    }
+
+    .homepage main a {
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .homepage header a {
+        bottom: 18px;
+    }
+
+    .homepage header a span {
+        width: 25px;
+        height: 20px;
+    }
+
+    #modal .modal-header h1 {
+        margin-left: 10px;
+    }
+
+    #modal .modal-header a {
+        margin-right: 10px;
+    }
+
+    #modal form label {
+        font-size: 16px;
+    }
+
+    .create-point-page header {
+        justify-content: center;
+    }
+
+    .create-point-page header a {
+        position: absolute;
+        top: 120px;
+    }
+
+    .create-point-page form {
+        max-width: 750px;
+        padding: 44px;
+    }
+
+    .create-point-page form h1 {
+        font-size: 26px;
+    }
+
+    .create-point-page form fieldset {
+        margin-top: 44px;
+    }
+
+    .create-point-page .items-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .create-point-page .items-grid li {
+        padding: 32px 20px 16px;
+    }
+
+    .create-point-page form legend {
+        margin-bottom: 30px;
+    }
+
+    .create-point-page form legend h2 {
+        font-size: 20px;
+    }
+
+    .search-page-results header {
+        justify-content: center;
+    }
+
+    .search-page-results header a {
+        position: absolute;
+        top: 120px;
+    }
+
+    .search-page-results main {
+        margin: 100px 48px 48px;
+    }
+}
+
+/* iPhone 5/SE */
+@media (max-width: 320px) {
+
+    .homepage main h1 {
+        font-size: 44px;
+    }
+
+    .homepage main p {
+        font-size: 24px;
+    }
+
+    .homepage main a {
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    .homepage header a span {
+        width: 29px;
+    }
+
+    #modal .modal-header h1 {
+        font-size: 26px;
+        margin-left: 10px;
+    }
+
+    #modal .modal-header a {
+        margin-right: 10px;
+    }
+
+    #modal form label {
+        font-size: 16px;
+    }
+
+    .create-point-page form input, form select {
+        padding: 16px 16px;
+    }
+
+    .create-point-page form button, form select {
+        width: 220px;
+    }
+
+    .create-point-page .items-grid li {
+        padding: 32px 10px 16px;
+    }
+}
+
 @media (min-width: 1700) {
     .homepage {
         background-position-x: 40vw;
     }
+}
 
+@media (min-width: 1024px) {
+    .homepage {
+        background-position: 15vw bottom;
+    }
+
+    .homepage main {
+        margin-bottom: 300px;
+    }
 }
 
 @media (max-height: 760px) {

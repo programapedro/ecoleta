@@ -1,5 +1,6 @@
+// Function to get the states from the API and create the <options> to the <select>
 const populateStates = () => {
-    const stateSelect = document.querySelector("select[name=state]");
+    const stateSelect = document.querySelector("select[name=uf]");
     fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
         .then(response => response.json())
         .then(states => {
@@ -12,9 +13,10 @@ const populateStates = () => {
 
 populateStates();
 
+// Function to add the Cities <options> according to the selected State
 const getCities = (event) => {
     const citySelect = document.querySelector("select[name=city]");
-    const stateInput = document.querySelector("input[name=uf]");
+    const stateInput = document.querySelector("input[name=state]");
     const indexOfSelectedState = event.target.selectedIndex;
     stateInput.value = event.target.options[indexOfSelectedState].text;
     console.log(event.target.options[indexOfSelectedState]);
@@ -33,12 +35,16 @@ const getCities = (event) => {
         .catch(error => console.log(error))
 }
 
-document.querySelector("select[name=state]")
+// Trigger for when the State <select> changes
+document.querySelector("select[name=uf]")
         .addEventListener("change", getCities)
 
+
+// Collectible Items variables
 let selectedItems = [];
 const collectedItems = document.querySelector("input[name=items]");
 
+// Function to add the selected items according to which were chosen by the user
 const handleSelectedItem = (event) => {
     const listItem = event.target;
     listItem.classList.toggle("selected");
@@ -59,6 +65,7 @@ const handleSelectedItem = (event) => {
     collectedItems.value = selectedItems;
 }
 
+// Trigger for when the user choose a collectible item
 const itemsToCollect = document.querySelectorAll(".items-grid li");
 for(item of itemsToCollect) {
     item.addEventListener("click", handleSelectedItem);

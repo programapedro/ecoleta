@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
+   sodipodi:docname="error.svg"
+   id="svg997"
+   version="1.1"
+   viewBox="0 0 45.82 45.82"
+   height="45.82"
+   width="45.82">
+  <metadata
+     id="metadata1001">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="Close"
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="0"
+     inkscape:cy="22.91"
+     inkscape:cx="13.114"
+     inkscape:zoom="18.987342"
+     showgrid="false"
+     id="namedview999"
+     inkscape:window-height="1016"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs987">
+    <style
+       id="style985">.cls-1{fill:#00c569}.cls-2{fill:#111}</style>
+  </defs>
+  <title
+     id="title989">Close</title>
+  <g
+     data-name="Layer 2"
+     id="Layer_2">
+    <g
+       id="Close">
+      <path
+         style="fill:#e63946;fill-opacity:1"
+         id="path991"
+         d="M45.09 45.09a2.52 2.52 0 0 1-3.54 0L28.91 32.45l-1.77-1.77a2.5 2.5 0 0 1 0-3.54 2.5 2.5 0 0 1 3.54 0l1.77 1.77 12.64 12.64a2.52 2.52 0 0 1 0 3.54z"
+         class="cls-1" />
+      <path
+         style="fill:#e63946;fill-opacity:1"
+         id="path993"
+         d="M45.09.73a2.52 2.52 0 0 0-3.54 0L22.91 19.37 4.27.73a2.51 2.51 0 0 0-3.54 0 2.52 2.52 0 0 0 0 3.54l18.64 18.64L.73 41.55a2.5 2.5 0 0 0 3.54 3.54L45.09 4.27a2.51 2.51 0 0 0 0-3.54z"
+         class="cls-2" />
+    </g>
+  </g>
+</svg>
